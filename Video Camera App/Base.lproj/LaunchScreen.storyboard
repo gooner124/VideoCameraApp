@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vintage camera.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Me8-xS-vEc">
+                                <rect key="frame" x="115" y="123" width="371" height="354"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="371" id="mQf-HO-bhz"/>
+                                    <constraint firstAttribute="height" constant="354" id="usB-tV-gXA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Camera App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTJ-ed-X9Y">
+                                <rect key="frame" x="115" y="33" width="371" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="371" id="1c0-Vx-Wg5"/>
+                                    <constraint firstAttribute="height" constant="68" id="cuR-fX-HP3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="41"/>
+                                <color key="textColor" red="0.13464209157960463" green="0.64248426370272094" blue="0.94022253787878785" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By: Matthew Paravati" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOd-RV-7EP">
+                                <rect key="frame" x="186" y="493" width="229" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="229" id="fp7-Lq-zm7"/>
+                                    <constraint firstAttribute="height" constant="54" id="ll4-dh-cek"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="0.13464209160000001" green="0.6424842637" blue="0.94022253789999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99225601308918931" blue="0.50279507329866457" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Me8-xS-vEc" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4Eo-mO-6SG"/>
+                            <constraint firstItem="Me8-xS-vEc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FtR-Nr-EyI"/>
+                            <constraint firstItem="xTJ-ed-X9Y" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-233" id="G9e-8F-nir"/>
+                            <constraint firstItem="JOd-RV-7EP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="avh-SU-kcl"/>
+                            <constraint firstItem="xTJ-ed-X9Y" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dux-KK-DKv"/>
+                            <constraint firstItem="JOd-RV-7EP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="220" id="pgN-GP-HWP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vintage camera.jpg" width="626" height="626"/>
+    </resources>
+</document>
